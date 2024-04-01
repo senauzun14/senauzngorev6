@@ -1,0 +1,58 @@
+.App {
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+}
+
+.arama-kutusu {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+.arama-kutusu-baslik{
+  font-size:20px;
+}
+
+.arama-kutusu-input {
+  width: 1450px; 
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.emoji-listesi {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+ 
+ 
+}
+
+.emoji-elemani {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 5px;
+  padding:8px;
+  
+  
+  
+}
+
+.emoji-elemani:hover {
+  background-color: #f0f0f0;
+  
+}
+
+.emoji-elemani.secili {
+  background-color: #f0f0f0;
+}
+
+.emoji {
+  font-size: 15px;
+}
+
+.emoji-ad {
+  margin-top: 10px;
+}
